@@ -1,0 +1,145 @@
+"Window": {
+  	backgroundColor: "white",
+  	//layout: "vertical"
+},
+"Label[platform=android]": {
+	color: "black"
+},
+"#examplesBtn":{
+	top : "10dp",
+	right : "10dp",
+	backgroundColor : "transparent",
+	borderColor : Alloy.Globals.css.tintColor,
+	borderWidth : 1,
+	borderRadius : 5,
+	width : "85dp",
+	height : "30dp",
+	color : Alloy.Globals.css.tintColor,
+	font : {fontSize : "16sp"},
+	title : "Examples"
+},
+"#lbl": {
+	top: "80dp",
+	color: "#83181C",
+	font:{
+		fontWeight : "bold",
+		fontSize : "30dp"
+	},
+	width: "auto",
+	height: "auto",
+	borderRadius: "5px"
+},
+"#filterView[formFactor=tablet]":{
+	width: "400dp",
+},
+"#filterView":{
+	top : "140dp",
+	width: "300dp",
+	height: "50dp",
+	//borderColor : "red",
+	//layout : "horizontal"
+},
+"#filterBtnView":{
+	left : "0dp",
+	width : "65dp",
+	//borderColor : "green"
+},
+"#filterLbl":{
+	top : "0dp",
+	width : Ti.UI.SIZE,
+	text : "Title",
+	font : {fontSize : "14sp"},
+	color : Alloy.Globals.css.tintColor
+},
+"#filterBtn":{
+	backgroundImage : "/images/filter.png",
+	bottom : "5dp", 
+	//left : "0dp",
+	width : "25dp",
+	height : "25dp"
+},
+"#searchTxt[platform=android]":{
+	right : "38dp",
+},
+"#searchTxt": {
+	font : {fontSize : "16sp"},
+	hintText: "Insert text...",
+	borderWidth: "2px",
+	borderColor: Alloy.Globals.css.tintColor,
+	left : "70dp",
+	right : "0dp",
+	height: "40dp",
+	paddingLeft: "10dp",
+	paddingRight : "50dp",
+	borderRadius: "5px",
+	clearButtonMode : Titanium.UI.INPUT_BUTTONMODE_ONFOCUS
+},
+"#searchBtn[platform=android]":{
+	borderRadius: "5px",
+	right : "0dp",
+	width : "40dp",
+	height : "40dp",
+	backgroundColor : Alloy.Globals.css.tintColor
+},
+"#searchBtn[platform=ios]": {
+	right : "0dp",
+	width : "50dp",
+	height : "50dp",
+	backgroundColor : Alloy.Globals.css.tintColor
+},
+"#searchIV":{
+	width : "30dp",
+	height : "30dp",
+	image: "/images/search-home.png",
+	zIndex : 1
+},
+"#iv": {
+	bottom: "50dp",
+	right: "0dp",
+	width : "320dp",
+	height : "222dp"
+},
+"#iv[platform=android formFactor=handheld]": {
+	top: "250dp"
+},
+"#iv[formFactor=handheld]": {
+	width : "180dp",
+	height : "125dp"
+},
+"#filterListView": {
+	bottom : -1000,
+	backgroundColor : "transparent",
+	height : "100%",
+	width : "100%"	
+},
+"#filterTv":{
+	width : "255dp",
+	height : "270dp",
+	scrollable : "false",
+	backgroundColor : "#fff",
+	borderRadius : 15,
+	borderWidth : "2dp",
+	borderColor : Alloy.Globals.css.tintColor,
+	tintColor : Alloy.Globals.css.tintColor,
+	separatorColor : Alloy.Globals.css.tintColor
+},
+"#examplesListView": {
+	bottom : -1000,
+	backgroundColor : "transparent",
+	height : "100%",
+	width : "100%"	
+},
+"#examplesTv":{
+	width : "280dp",
+	height : "300dp",
+	backgroundColor : "#fff",
+	borderRadius : 15,
+	borderWidth : "2dp",
+	borderColor : Alloy.Globals.css.tintColor,
+	tintColor : Alloy.Globals.css.tintColor,
+	separatorColor : Alloy.Globals.css.tintColor
+},
+"#examplesTv[formFactor=tablet]":{
+	width : "350dp",
+	height : "380dp"
+}

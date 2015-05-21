@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="detailWin" title="Details">
+		<TableView id="tv" />
+		<View id="loadingBG" />
+	</Window>
+</Alloy>

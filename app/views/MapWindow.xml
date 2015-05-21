@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="mapview" ns="Alloy.Globals.Map" visible="false" >
+		<View id="infoView">
+			<Label id="infoLbl" text="I'm downloading the list of repositories \nPlease wait while loading data" />
+		</View>
+	</View>
+</Alloy>

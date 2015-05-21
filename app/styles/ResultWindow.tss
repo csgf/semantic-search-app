@@ -1,0 +1,8 @@
+"#resWin": {
+  	backgroundColor: "white"
+},
+"#tv": {
+	backgroundColor : "transparent",
+	minRowHeight : "50dp",
+	//maxRowHeight : "100dp"
+}

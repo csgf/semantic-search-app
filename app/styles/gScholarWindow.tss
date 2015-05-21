@@ -1,0 +1,7 @@
+"#gScholarWin" : {
+  	backgroundColor: "#FFF"
+},
+"#tv": {
+	minRowHeight : "50dp",
+	maxRowHeight : "200dp"
+}

@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="resWin" onOpen="loadResult" onScroll="loadOnScroll">
+		<TableView id="tv" visible="false" onClick="showDetails">
+			<!--TableViewRow id="test" title="Prova"  leftImage="KS_nav_ui.png" hasChild="true"></TableViewRow-->
+		</TableView>
+	</Window>
+</Alloy>

@@ -1,0 +1,52 @@
+"Window" : {
+  	backgroundColor: "white"
+}
+"#tv[platform=ios]": {
+	bottom: "40dp"
+},
+"#tv[platform=android]": {
+	separatorColor : "#efefef"
+},
+"#tv": {
+	top: "43dp"
+}
+"#tb": {
+	bottom: "5"
+},
+"TableViewRow": {
+	color: "black",
+	height: "50dp"
+},
+"#mapview": {
+	region: {
+		latitude: 20,
+		longitude: 30,
+		latitudeDelta: 120,
+		longitudeDelta: 120
+	}
+},
+"#search" : {	
+	height : "43dp",
+	top : "0dp",
+	hintText : "Search data in the list...",
+	tintColor : Alloy.Globals.css.tintColor
+},
+"#search[platform=android]" : {
+	barColor : "#efefef",
+	showCancel : false
+},
+"#search[platform=ios]" : {
+	showCancel : true
+},
+"#search[platform=ios formFactor=handheld]" : {
+	barColor : "#b5b5b5"
+},
+"#searchDone" : {
+	top : "4dp",
+	height : "35dp",
+	width : "70dp",
+	right : "0dp",
+	title : "Done",
+	color : "#838383",
+	backgroundColor : "#b5b5b5"
+}

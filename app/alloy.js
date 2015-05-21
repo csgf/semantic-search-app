@@ -1,0 +1,28 @@
+// The contents of this file will be executed before any of
+// your view controllers are ever executed, including the index.
+// You have access to all functionality on the `Alloy` namespace.
+//
+// This is a great place to do any initialization for your app
+// or create any global variables/functions that you'd like to
+// make available throughout your app. You can easily make things
+// accessible globally by attaching them to the `Alloy.Globals`
+// object. For example:
+//
+// Alloy.Globals.someGlobalFunction = function(){};
+
+Alloy.Globals.Map = require('ti.map');
+Alloy.Globals.numOfResult = 20;
+
+Alloy.Globals.dataAnnotationsLoaded = false;
+Alloy.Globals.documentsAnnotationsLoaded = false;
+Alloy.Globals.maxNumberShownRepos = 100;
+
+Alloy.Globals.debubMode = false; // console logs
+Alloy.Globals.css = {
+	titleRowColor : "#83181C",
+	subtitleRowColor : "#666",
+	tintColor : "#83181C"
+};
+
+Alloy.Globals.prova = "";
+Alloy.Globals.prova1 = "";

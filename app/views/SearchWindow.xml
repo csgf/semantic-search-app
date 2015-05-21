@@ -1,0 +1,27 @@
+<Alloy>
+	<Window title="Search" onClick="doClick">
+		<Button id="examplesBtn" onClick="openExamplesListView" />
+		<Label id="lbl">Semantic Search</Label>
+		<View id="filterView">
+			<View id="filterBtnView">
+				<Button id="filterBtn" onClick="openFilterListView" />
+				<Label id="filterLbl" onClick="openFilterListView" />
+			</View>
+			<TextField id="searchTxt" onReturn="openSearch" bubbleParent="false" >
+				<View platform="ios" id="searchBtn" onClick="openSearch">
+					<ImageView id="searchIV" />
+				</View>
+			</TextField>
+			<View platform="android" id="searchBtn" onClick="openSearch">
+				<ImageView id="searchIV" />
+			</View>
+		</View>
+		<ImageView id="iv" image="/images/chain-reds.png" />
+		<View id="filterListView" onClick="closeFilterListView">
+			<TableView id="filterTv" onClick="selectFilter" />
+		</View>
+		<View id="examplesListView" onClick="closeExamplesListView">
+			<TableView id="examplesTv" onClick="selectExample" />
+		</View>
+	</Window>
+</Alloy>

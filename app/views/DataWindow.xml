@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id ="window" title="Documents" onOpen="doLoadData" onScroll="loadOnScroll">		
+		<SearchBar id="search" onChange="searchRepos" onReturn="searchBarHideKeyboard" onCancel="searchBarHideKeyboard" onFocus="enableSearchDone" />
+		<Button platform="ios" id="searchDone" onClick="searchBarHideKeyboard" />
+		<TableView id="tv" onClick="showRepo" visible="false" minRowHeight="40dp" maxRowHeight="60dp" >
+			<!--TableViewRow title="prova" hasChild="true"></TableViewRow-->
+		</TableView>
+		<!--<View platform="ios" id="mapview" ns="Alloy.Globals.Map" visible="false" />-->
+		<Require id="mapContainer" src="MapWindow" visible="false" />
+		<TabbedBar id="tb" platform="ios" index="0" onClick="switchView">
+		<Labels>			
+			<Label width="80">Map</Label>
+			<Label width="80">List</Label>
+		</Labels>	
+		</TabbedBar>
+	</Window>
+</Alloy>

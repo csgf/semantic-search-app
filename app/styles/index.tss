@@ -1,0 +1,30 @@
+"Window": {
+	backgroundColor: "white"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+},
+"#index[platform=ios]":{
+	tintColor : Alloy.Globals.css.tintColor,
+	titleAttributes:  {
+        color: Alloy.Globals.css.tintColor,
+        //font: {fontFamily:'Arial', fontSize:20, fontWeight:'bold'},
+        //shadow:{color:'gray', offset:{width:1,height:1}}
+   }
+},
+"#searchTab[platform=ios]": {
+	icon:"/search.png"
+},
+"#docTab[platform=ios]": {
+	icon:"/data.png"
+},
+"#dataTab[platform=ios]": {
+	icon:"/accessOrange.png"
+}

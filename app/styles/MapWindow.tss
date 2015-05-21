@@ -1,0 +1,45 @@
+".container" : {
+  
+},
+"#mapview": {
+	region: {
+		latitude: 20,
+		longitude: 30,
+		latitudeDelta: 120,
+		longitudeDelta: 120
+	}
+},
+"#infoView[formFactor=handheld]": {
+	top : "5dp",
+	height : "50dp",
+	width : "300dp",
+	borderRadius : 10,
+	backgroundColor : "#fff",
+	opacity : "0.9",
+	zIndex : 1
+},
+"#infoLbl[formFactor=handheld]": {
+	color : "#000",
+	font : {fontSize : "13sp"},
+	width : "95%",
+	height : "98%",
+	textAlign : "center",
+	color: "#83181C"
+},
+"#infoView[formFactor=tablet]": {
+	top : "5dp",
+	height : "60dp",
+	width : "350dp",
+	borderRadius : 10,
+	backgroundColor : "#fff",
+	opacity : "0.9",
+	zIndex : 1
+},
+"#infoLbl[formFactor=tablet]": {
+	color : "#000",
+	font : {fontSize : "14sp", fontWeight : "bold"},
+	width : "95%",
+	height : "98%",
+	textAlign : "center",
+	color: Alloy.Globals.css.tintColor
+}

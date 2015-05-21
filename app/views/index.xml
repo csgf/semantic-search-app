@@ -1,0 +1,16 @@
+<Alloy>
+	<TabGroup id="index" onAndroidback="androidBack" >
+		<Tab id="searchTab" title="Search" >
+			<Require id="searchWin" src="SearchWindow"/>
+		</Tab>
+		<Tab id="docTab" title="Data" >
+			<Require id="docWin" src="DocumentsWindow"/>
+		</Tab>
+		<Tab id="dataTab" title="Documents" >
+			<Require id="dataWin" src="DataWindow"/>
+		</Tab>
+		<Tab platform="ios" title="Info & Credits" icon="/about.png">
+			<Require src="InfoWindow"/>
+		</Tab>
+	</TabGroup>
+</Alloy>

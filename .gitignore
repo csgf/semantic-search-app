@@ -1,0 +1,9 @@
+.DS_Store
+build.log
+build
+npm-debug.log
+tmp
+.map
+Resources
+screenshoots
+.settings/com.appcelerator.titanium.ios.core.prefs

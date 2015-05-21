@@ -1,0 +1,16 @@
+"#detailWin": {
+  	backgroundColor: "#fff"
+},
+"TableViewRow": {
+	height: "50dp"
+},
+"#tv": {
+	minRowHeight : "30dp",
+	maxRowHeight : "400dp",
+	backgroundColor : "transparent"
+},
+"#loadingBG":{
+	backgroundColor : "#ccc",
+	opacity : 0,
+	visible : false
+}
