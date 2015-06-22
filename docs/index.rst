@@ -1,6 +1,6 @@
-*************************************
-Semantic Search Mobile (v. 2.0.1) 
-*************************************
+***************
+Semantic Search  
+***************
 
 ============
 About
@@ -78,28 +78,32 @@ Tapping on Data or Documents the application shows the Data or Documents Reposit
 .. ============
 
 ============
-Support
+Contributors
 ============
 
-Please feel free to contact us any time if you have any questions or comments.
+Roberto BARBERA
+
+Carla CARRUBBA
+
+Giuseppina INSERRA
+
+Rita Ricceri
+
+Mario TORRISI
+
+.. Please feel free to contact us any time if you have any questions or comments.
 
 .. _INFN: http://www.ct.infn.it/
 .. _DFA: http://www.dfa.unict.it/
 
-:Authors:
+.. :Authors:
  
+.. `Roberto BARBERA <mailto:roberto.barbera@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_),
+
+.. `Rita Ricceri <mailto:rita.ricceri@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_), 
  
-
- `Roberto BARBERA <mailto:roberto.barbera@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_),
-
- `Rita Ricceri <mailto:rita.ricceri@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_), 
+.. `Mario TORRISI <mailto:mario.torrisi@ct.infn.it>`_ - University of Catania (DFA_),
  
- `Mario TORRISI <mailto:mario.torrisi@ct.infn.it>`_ - University of Catania (DFA_),
- 
- `Giuseppina INSERRA <mailto:giuseppina.inserra@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_), 
+.. `Giuseppina INSERRA <mailto:giuseppina.inserra@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_), 
 
- `Carla CARRUBBA <mailto:carla.carrubba@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_)
-
-:Version: v2.0.1, 2015
-
-:Date: June 22nd, 2015 13:00
+.. `Carla CARRUBBA <mailto:carla.carrubba@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_)
