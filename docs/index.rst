@@ -14,8 +14,9 @@ About
    :align: left 
    :target: https://www.chain-project.eu
    :alt: Semantic Search Mobile logo
-   :scale: 40%
-  
+   :scale: 30%
+
+-------------  
 
 **Semantic Search Mobile** is a mobile application that allows to browse the almost 3,100 Open Access Data and Documents Repositories integrated in the `CHAIN-REDS <https://www.chain-project.eu>`_ project's Knowledge Base, presented either through geographic maps or table.
 Tapping on a marker on a map or on an element of a table, one gets redirected to the corresponding repository in order to search inside it. The app also allows to use the CHAIN-REDS Semantic Search Engine to search across the more than 30 million resources contained in the Knowledge Base and enriched by means of Semantic Web technologies. For each record found, a short description of the corresponding resource is provided. Tapping on an element of the list, one can access a detailed view with direct links to the document and, if existing, to the related data. 
@@ -33,13 +34,13 @@ To install Semantic Search Mobile on your devices simply download the app from t
    :align: middle 
    :target: PLAY_
    :alt: Semantic Search Mobile play store
-   :scale: 100%
+   :scale: 80%
 
 .. |APP-STORE| image:: images/app-store-logo.jpg
    :align: middle
    :target: ITUNES_
    :alt: Semantic Search Mobile app store
-   :scale: 100%
+   :scale: 80%
 
 ============
 Usage
