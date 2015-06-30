@@ -1,6 +1,6 @@
-***************
-Semantic Search  
-***************
+*******************
+SEMANTIC SEARCH APP  
+*******************
 
 ============
 About
@@ -88,7 +88,7 @@ Carla CARRUBBA
 
 Giuseppina INSERRA
 
-Rita Ricceri
+Rita RICCERI
 
 Mario TORRISI
 
