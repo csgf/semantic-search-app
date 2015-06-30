@@ -14,7 +14,7 @@ About
    :align: left 
    :target: https://www.chain-project.eu
    :alt: Semantic Search Mobile logo
-   :scale: 30%
+   :scale: 70%
 
 -------------  
 
